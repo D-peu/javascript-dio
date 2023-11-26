@@ -8,12 +8,11 @@ Você terá 3 variáveis. Sendo elas:
     Imprima no console o valor que será gato para realizar esta viagem.*/
 
 
- let combustivel = 5.00;
- let litrosKm = 2;
- let viagemKM = 40;
+ const precoCombustivel = 5.63;
+ const kmPorLitros = 10;
+ const distanciaEmKm = 100;
 
-let gastoKm = litrosKm * combustivel;
+ const litrosConsumidos = distanciaEmKm / kmPorLitros;
+ const gastoViagem = litrosConsumidos * precoCombustivel;
 
-let resultado = gastoKm * viagemKm;
-
-console.log(resultado);
+console.log(gastoViagem);
